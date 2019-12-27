@@ -1,4 +1,4 @@
-= vim-iced-asyncomplete
+= vim-iced-ncm2
 :toc:
 :toc-placement: preamble
 :toclevels: 2
@@ -13,6 +13,7 @@ WARNING: This project is under development.
 == Requirements
 
 * https://github.com/liquidz/vim-iced[vim-iced] (`0.11.1` or later)
+* https://github.com/ncm2/ncm2[ncm2]
 
 == Installation
 
@@ -20,9 +21,14 @@ WARNING: This project is under development.
 
 [source,vim]
 ----
-Plug 'prabirshrestha/asyncomplete.vim'
+" ncm2 https://github.com/ncm2/ncm2#install
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
+
+" vim-iced https://github.com/liquidz/vim-iced#installation
 Plug 'liquidz/vim-iced', {'for': 'clojure'}
-Plug 'liquidz/vim-iced-asyncomplete', {'for': 'clojure'}
+
+Plug 'nbardiuk/vim-iced-ncm2'
 ----
 
 == License
