@@ -27,7 +27,7 @@ function! ncm2_iced#init() abort
     let iced_source.priority = 9
     let iced_source.scope = ['clojure']
     let iced_source.complete_length = 2
-    let iced_source.complete_pattern = ['/']
+    let iced_source.complete_pattern = ['/', '.']
     let iced_source.word_pattern = '[\w!$&*\-=+:<>./?]+'
     let iced_source.on_complete = 'ncm2_iced#complete'
 
